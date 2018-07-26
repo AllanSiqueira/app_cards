@@ -1,0 +1,6 @@
+<h2><%= @name %></h2>
+<p>Número de Linhas: <%= @number_lines %></p>
+<h3>Funcionários com data de admissão superior a 1 ano</h3>
+<%= render partial: 'table', locals: {rows: @more_than_year} %>
+<h3>Demais funcionários</h3>
+<%= render partial: 'table', locals: {rows: @less_than_year} %>

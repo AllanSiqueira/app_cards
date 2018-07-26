@@ -1,0 +1,5 @@
+<%= form_tag '/result', multipart: true do %>
+  <%= label_tag 'Arquivo csv' %>
+  <%= file_field_tag 'file' %>
+  <%= submit_tag 'Enviar csv' %>
+<% end %>
