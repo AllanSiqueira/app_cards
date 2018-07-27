@@ -1,0 +1,15 @@
+pt-BR:
+  views:
+    number_lines: Número de Linhas
+    file: Arquivo csv
+    send_file: Enviar csv
+  tables:
+    titles:
+      more_than_a_year: Funcionários com data de admissão superior a 1 ano
+      less_than_a_year: Demais funcionários
+    fields:
+      name: Nome
+      token: Token
+      email: Email
+      date: Data de admissão
+      value: Valor disponível

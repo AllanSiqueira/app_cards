@@ -1,5 +1,5 @@
 <%= form_tag '/result', multipart: true do %>
-  <%= label_tag 'Arquivo csv' %>
+  <%= label_tag t('views.file') %>
   <%= file_field_tag 'file' %>
-  <%= submit_tag 'Enviar csv' %>
+  <%= submit_tag t('views.send_file') %>
 <% end %>
